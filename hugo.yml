@@ -1,8 +1,16 @@
 baseURL: https://v1rucov.github.io/
+theme: ["PaperMod"]
 languageCode: en-us
-params:
-  contact:
-    email: info@example.org
-    phone: +78005553535
-  subtitle: The Best Widgets on Earth
-title: ABC Widgets, Inc.
+title: v1rucov
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: code
+      name: Code
+      url: /code/
+      weight: 10
